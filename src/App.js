@@ -4,8 +4,8 @@ import Search from './components/Search';
 import RecipeDetail from './components/RecipeDetail';
 import axios from 'axios';
 
-const API_ID = '06c4acbb'; // Replace with your actual API ID
-const API_KEY = '554d3c5b5319fc37a0384f9f645bd8c2'; // Replace with your actual API Key
+const API_ID = process.env.REACT_APP_API_ID;
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 
 function App() {
